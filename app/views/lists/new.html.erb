@@ -1,0 +1,7 @@
+<h1>Create new List</h1>
+
+<%= simple_form_for(@list) do |l| %>
+  <%= l.label :name %>
+  <%= l.text_field :name %>
+  <%= l.submit %>
+<% end %>
